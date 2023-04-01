@@ -2,7 +2,7 @@
 //  ImageMergerUITests.swift
 //  ImageMergerUITests
 //
-//  Created by Anto Jero on 29/03/2023.
+//  Created by Godwin A on 29/03/2023.
 //
 
 import XCTest

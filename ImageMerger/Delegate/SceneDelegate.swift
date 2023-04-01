@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  ImageMerger
 //
-//  Created by Anto Jero on 29/03/2023.
+//  Created by Godwin A on 29/03/2023.
 //
 
 import UIKit
@@ -46,7 +46,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use this method to save data, release shared resources, and store enough scene-specific state information
         // to restore the scene back to its current state.
     }
-
 
 }
 

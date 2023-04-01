@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		5AA6DFFD29D43E570066112C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA6DFFC29D43E570066112C /* AppDelegate.swift */; };
 		5AA6DFFF29D43E570066112C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA6DFFE29D43E570066112C /* SceneDelegate.swift */; };
-		5AA6E00129D43E570066112C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA6E00029D43E570066112C /* ViewController.swift */; };
+		5AA6E00129D43E570066112C /* ImageMergeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA6E00029D43E570066112C /* ImageMergeVC.swift */; };
 		5AA6E00429D43E570066112C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AA6E00229D43E570066112C /* Main.storyboard */; };
 		5AA6E00629D43E590066112C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AA6E00529D43E590066112C /* Assets.xcassets */; };
 		5AA6E00929D43E590066112C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AA6E00729D43E590066112C /* LaunchScreen.storyboard */; };
 		5AA6E01429D43E590066112C /* ImageMergerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA6E01329D43E590066112C /* ImageMergerTests.swift */; };
 		5AA6E01E29D43E590066112C /* ImageMergerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA6E01D29D43E590066112C /* ImageMergerUITests.swift */; };
 		5AA6E02029D43E590066112C /* ImageMergerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA6E01F29D43E590066112C /* ImageMergerUITestsLaunchTests.swift */; };
+		5AA6E03029D709BB0066112C /* ImagesData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5AA6E02E29D709BB0066112C /* ImagesData.xcdatamodeld */; };
+		5AA6E03229D839430066112C /* DataBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA6E03129D839430066112C /* DataBaseManager.swift */; };
+		5AA6E03429D83E4C0066112C /* ImageMergerVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA6E03329D83E4C0066112C /* ImageMergerVM.swift */; };
+		5AA6E03629D83E660066112C /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA6E03529D83E660066112C /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +43,7 @@
 		5AA6DFF929D43E570066112C /* ImageMerger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageMerger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AA6DFFC29D43E570066112C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5AA6DFFE29D43E570066112C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5AA6E00029D43E570066112C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5AA6E00029D43E570066112C /* ImageMergeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageMergeVC.swift; sourceTree = "<group>"; };
 		5AA6E00329D43E570066112C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5AA6E00529D43E590066112C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5AA6E00829D43E590066112C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,10 @@
 		5AA6E01929D43E590066112C /* ImageMergerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageMergerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AA6E01D29D43E590066112C /* ImageMergerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageMergerUITests.swift; sourceTree = "<group>"; };
 		5AA6E01F29D43E590066112C /* ImageMergerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageMergerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5AA6E02F29D709BB0066112C /* ImageEntity.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ImageEntity.xcdatamodel; sourceTree = "<group>"; };
+		5AA6E03129D839430066112C /* DataBaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseManager.swift; sourceTree = "<group>"; };
+		5AA6E03329D83E4C0066112C /* ImageMergerVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageMergerVM.swift; sourceTree = "<group>"; };
+		5AA6E03529D83E660066112C /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +107,12 @@
 		5AA6DFFB29D43E570066112C /* ImageMerger */ = {
 			isa = PBXGroup;
 			children = (
-				5AA6DFFC29D43E570066112C /* AppDelegate.swift */,
-				5AA6DFFE29D43E570066112C /* SceneDelegate.swift */,
-				5AA6E00029D43E570066112C /* ViewController.swift */,
-				5AA6E00229D43E570066112C /* Main.storyboard */,
+				5AA6E03729D83F670066112C /* Storyboard */,
+				5AA6E02C29D43ED50066112C /* Delegate */,
+				5AA6E03929D83F860066112C /* MVVM */,
+				5AA6E03829D83F7D0066112C /* Helper */,
 				5AA6E00529D43E590066112C /* Assets.xcassets */,
-				5AA6E00729D43E590066112C /* LaunchScreen.storyboard */,
+				5AA6E02E29D709BB0066112C /* ImagesData.xcdatamodeld */,
 				5AA6E00A29D43E590066112C /* Info.plist */,
 			);
 			path = ImageMerger;
@@ -125,6 +133,42 @@
 				5AA6E01F29D43E590066112C /* ImageMergerUITestsLaunchTests.swift */,
 			);
 			path = ImageMergerUITests;
+			sourceTree = "<group>";
+		};
+		5AA6E02C29D43ED50066112C /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				5AA6DFFC29D43E570066112C /* AppDelegate.swift */,
+				5AA6DFFE29D43E570066112C /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		5AA6E03729D83F670066112C /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				5AA6E00229D43E570066112C /* Main.storyboard */,
+				5AA6E00729D43E590066112C /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		5AA6E03829D83F7D0066112C /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				5AA6E03529D83E660066112C /* Extension.swift */,
+				5AA6E03129D839430066112C /* DataBaseManager.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		5AA6E03929D83F860066112C /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				5AA6E03329D83E4C0066112C /* ImageMergerVM.swift */,
+				5AA6E00029D43E570066112C /* ImageMergeVC.swift */,
+			);
+			path = MVVM;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +259,8 @@
 				Base,
 			);
 			mainGroup = 5AA6DFF029D43E570066112C;
+			packageReferences = (
+			);
 			productRefGroup = 5AA6DFFA29D43E570066112C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,9 +304,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AA6E00129D43E570066112C /* ViewController.swift in Sources */,
+				5AA6E03029D709BB0066112C /* ImagesData.xcdatamodeld in Sources */,
+				5AA6E00129D43E570066112C /* ImageMergeVC.swift in Sources */,
+				5AA6E03629D83E660066112C /* Extension.swift in Sources */,
 				5AA6DFFD29D43E570066112C /* AppDelegate.swift in Sources */,
 				5AA6DFFF29D43E570066112C /* SceneDelegate.swift in Sources */,
+				5AA6E03429D83E4C0066112C /* ImageMergerVM.swift in Sources */,
+				5AA6E03229D839430066112C /* DataBaseManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -596,6 +646,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5AA6E02E29D709BB0066112C /* ImagesData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5AA6E02F29D709BB0066112C /* ImageEntity.xcdatamodel */,
+			);
+			currentVersion = 5AA6E02F29D709BB0066112C /* ImageEntity.xcdatamodel */;
+			path = ImagesData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 5AA6DFF129D43E570066112C /* Project object */;
 }
